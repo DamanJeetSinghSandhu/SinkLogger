@@ -14,6 +14,7 @@ Solution is divided into two approaches
 
 Console.Logger.Test and Serilog.Console.Sink.Test are the end to end testing applications(for integration tests)
 Console.Logger.Test is used to test custom logger approach & Serilog.Console.Sink.Test is used to test Serilog approach.
+Sink.Logger.Tests holds the unit tests with few edge cases as well.
 
 Both approachs can keep the logs in console,file and database.
 
