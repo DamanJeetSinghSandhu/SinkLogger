@@ -8,7 +8,7 @@ Solution contains 7 Projects
 7. Sink.Logger.Tests
    
 
-Solution is divided in two approaches 
+Solution is divided into two approaches 
 1. Custom Logger
 2. Serilog Logger
 
@@ -17,6 +17,6 @@ Console.Logger.Test is used to test custom logger approach & Serilog.Console.Sin
 
 Both approachs can keep the logs in console,file and database.
 
-In Source code  Sink.Logger.Lib have a folder named as **DBScripts** having forward script to create db objects to make the logger work.
-Also the same project holds the **appsettings.json **file in which we can set **connection string** for db and **file path** for log file.
+In Source code  Sink.Logger.Lib have a folder named as **DBScripts** having forward script to create db objects and make the logger work.
+Also the same project holds the **appsettings.json **file in which we can set **connection string** for db and **file path** for the log file.
 
