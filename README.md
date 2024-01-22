@@ -19,5 +19,5 @@ Sink.Logger.Tests holds the unit tests with few edge cases as well.
 Both approachs can keep the logs in console,file and database.
 
 In Source code  Sink.Logger.Lib have a folder named as **DBScripts** having forward script to create db objects and make the logger work.
-Also the same project holds the **appsettings.json **file in which we can set **connection string** for db and **file path** for the log file.
+Also the same project holds the **appsettings.json**file in which we can set **connection string** for db and **file path** for the log file.
 
